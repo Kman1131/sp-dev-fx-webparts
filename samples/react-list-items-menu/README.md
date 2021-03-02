@@ -3,7 +3,7 @@
 ## Summary
 
 This web part allows user create a navigation menu , grouped by any column of document library.
-When the user clicks on the header it dynamically load documents. 
+When the user clicks on the header it dynamically load documents.
 
 ![ListItemsMenu](./assets/ListMenuDocs.gif)
 
@@ -15,9 +15,14 @@ When the user clicks on the header it dynamically load documents.
 
 ![ListItemsMenu](./assets/reactListItems3.JPG)  
 
+## Compatibility
 
-## Used SharePoint Framework Version 
-![SPFx 1.11](https://img.shields.io/badge/version-1.11.0-green.svg)
+![SPFx 1.11](https://img.shields.io/badge/SPFx-1.11.0-green.svg) 
+![Node.js LTS 10.x](https://img.shields.io/badge/Node.js-LTS%2010.x-green.svg) 
+![SharePoint Online](https://img.shields.io/badge/SharePoint-Online-yellow.svg) 
+![Teams Yes: Designed for Microsoft Teams](https://img.shields.io/badge/Teams-Yes-green.svg "Designed for Microsoft Teams")
+![Workbench Hosted: Does not work with local workbench](https://img.shields.io/badge/Workbench-Hosted-yellow.svg "Does not work with local workbench")
+
 
 ## Applies to
 
@@ -39,13 +44,17 @@ The Web Part Use PnPjs library, Fluent-Ui-react components
 
 Solution|Author(s)
 --------|---------
-React List Items Menu |João Mendes
+React List Items Menu |[João Mendes](https://github.com/joaojmendes) ([@joaojmendes](https://twitter.com/joaojmendes))
+React List Items Menu |[Ravi Chandra](https://github.com/Ravikadri)
+
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0.0|November 20, 2020|Initial release
+1.0.1|February 18, 2021|Added support for metadata columns
+1.0.2|February 21, 2021|Fixed `gulp build` issues
 
 ## Disclaimer
 
